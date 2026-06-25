@@ -21,8 +21,8 @@ Navigate inside the virtual environment and install the dependencies:
     pip install -r requirements.txt
 
 ```
-<br>
-<br>
+
+
 ## Usage
 <br>
 Inside the virtual environment, add the pdf version of the book and run the following command:
