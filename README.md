@@ -18,7 +18,7 @@ To achieve this, create a virtual environment:
 
 Navigate inside the virtual environment and install the dependencies:
 ```
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ```
 <br>
@@ -26,6 +26,7 @@ pip install -r requirements.txt
 ## Usage
 <br>
 Inside the virtual environment, add the pdf version of the book and run the following command:
+
 ```
-kinder "book_name.pdf" -a "Author"
+    kinder "book_name.pdf" -a "Author"
 ```
