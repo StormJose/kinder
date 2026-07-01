@@ -14,11 +14,13 @@ To achieve this, create a virtual environment (MacOS):
 <br>
 Using pyenv:
 
+
 ```
     /Users/[User]/.pyenv/versions/3.11.15/bin/python -m venv myenv 
 ```
 <br>
 Then, activate the environment running:
+
 
 ```
     myenv\Scripts\activate
@@ -26,6 +28,8 @@ Then, activate the environment running:
 <br>
 
 Go to the root of the project and install the dependencies:
+
+
 ```
     pip install -r requirements.txt
 
