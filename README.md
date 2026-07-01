@@ -4,19 +4,26 @@
 ## Installation
 <br>
 
-You must have Python 3.11^ at least and install [Calibre](https://calibre-ebook.com/download) ebook management application to run the project.
+You must have Python 3.11 and have [Calibre](https://calibre-ebook.com/download) ebook management application installed to run the project.
 
-To achieve this, create a virtual environment:
+To achieve this, create a virtual environment (MacOS):
 
 ```
-    python -m venv .venv
+    python3.11 -m venv .venv
 ```
+<br>
+Using pyenv:
 ```
-    .venv\Scripts\Activate.ps1
+    /Users/[User]/.pyenv/versions/3.11.15/bin/python -m venv myenv 
+```
+<br>
+Then, activate the environment running
+```
+    myenv\Scripts\activate
 ```
 <br>
 
-Navigate inside the virtual environment and install the dependencies:
+Go to the root of the project and install the dependencies:
 ```
     pip install -r requirements.txt
 
