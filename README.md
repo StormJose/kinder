@@ -14,13 +14,11 @@ To achieve this, create a virtual environment (MacOS):
 <br>
 Using pyenv:
 
-
 ```
     /Users/[User]/.pyenv/versions/3.11.15/bin/python -m venv myenv 
 ```
 <br>
 Then, activate the environment running:
-
 
 ```
     myenv\Scripts\activate
@@ -34,11 +32,12 @@ Go to the root of the project and install the dependencies:
     pip install -r requirements.txt
 
 ```
-
+<br>
+<br>
 
 ## Usage
 <br>
-Inside the virtual environment, add the pdf version of the book and run the following command:
+To convert pdf files directly in the project, add it to the root and reference it by running the command:
 
 ```
     kinder "book_name.pdf" -a "Author"
