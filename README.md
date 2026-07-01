@@ -17,7 +17,8 @@ Using pyenv:
     /Users/[User]/.pyenv/versions/3.11.15/bin/python -m venv myenv 
 ```
 <br>
-Then, activate the environment running
+Then, activate the environment running:
+
 ```
     myenv\Scripts\activate
 ```
